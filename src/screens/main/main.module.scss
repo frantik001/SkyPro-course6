@@ -1,0 +1,108 @@
+.main {
+  background: #271a58;
+  padding: 30px 5vw 0 5vw;
+  display: flex;
+  flex-direction: column;
+  
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+
+    &_logo {
+      width: 220px;
+      height: 35px;
+    }
+
+    &_button {
+      background: #140d40;
+      width: 77px;
+      height: 36px;
+      border-radius: 46px;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      transition: 0.3s;
+    }
+    &_button:hover {
+      background: #2d1f79;
+    }
+    &_button:active {
+      background: #3b29a1;
+    }
+  }
+  &__title {
+    display: flex;
+    margin-bottom: 52px;
+    align-items: center;
+    justify-content: space-between;
+
+    &_par {
+      color: #ffffff99;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 115%;
+      margin-bottom: 17px;
+    }
+    &_text {
+      color: #f4f4ff;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 91.5%;
+    }
+    &_sticker {
+      width: 212.27px;
+      height: 151.741px;
+    }
+  }
+  &__center {
+    display: flex;
+    gap: 37px;
+    flex-wrap: wrap;
+
+    &_card {
+      width: 360px;
+      height: 480px;
+      transition: 0.3s;
+      
+    }
+    &_card:hover {
+      transform: scale(1.05);
+    }
+    &_card:active {
+      transform: scale(0.95);
+    }
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+    margin-bottom: 60px;
+
+    &_button {
+      border-radius: 46px;
+     
+      border: none;
+      background: #c7e957;
+      color: #000;
+      width: 147px;
+      height: 48px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 32px;
+      transition: 0.3s;
+    }
+    &_button:hover {
+      background: #daf289;
+    }
+    &_button:active {
+      background: #ebffab;
+    }
+  }
+}

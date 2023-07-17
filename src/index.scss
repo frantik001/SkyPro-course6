@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "StratosSkyeng";
+  src: local("StratosSkyeng"), local("StratosSkyeng"),
+    url("/fonts/Stratos-Regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+button,
+body {
+  font-family: "StratosSkyeng", sans-serif;
+}
